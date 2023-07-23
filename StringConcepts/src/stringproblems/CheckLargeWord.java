@@ -3,6 +3,7 @@ package stringproblems;
 public class CheckLargeWord {
 	public static void findLarge(String str) {
 		String s=null;
+		@SuppressWarnings("unused")
 		String big=null;
 		int length1=0;
 		int len2=0;
