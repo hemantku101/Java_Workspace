@@ -6,7 +6,7 @@ separate sub tasks, each of which is expressed as a function. So a C program gen
 contains several functions which are called and controlled from a main() function. This 
 approach is called Procedure Oriented approach.
 
--On the other hand, languages like C++ and Java use classes and objects in their programs 
+- On the other hand, languages like C++ and Java use classes and objects in their programs 
 and are called Object Oriented Programming languages. A class is a module which itself 
 contains data and methods (functions) to achieve the task. The main task is divided into 
 several modules, and these are represented as classes. Each class can perform some tasks 
