@@ -2,9 +2,8 @@ package stringproblems;
 
 import java.util.Scanner;
 
-public class AlphaCount {
-	
-	static void count(String str) {
+public class AlphaCount02 {
+static void count(String str) {
 		
 		int size = 256;
 
@@ -29,24 +28,7 @@ public class AlphaCount {
 			if (find == 1) {
 				System.out.println( str.charAt(i) + " count is " + count[str.charAt(i)]);
 			}
-//
-//			if (find > 0) {
-//				int count2 = 0;
-//				for (int k = 1; k <= count[str.charAt(i)]; k++) {
-//
-//					if (count[str.charAt(i)] % k == 0) {
-//						count2++;
-//						// System.out.println(count2);
-//						if (count2 > 1 && count2 < 3) {
-//							break;
-//							
-//						}
-//
-//					}
-//				}
-//			}
 		}
-
 	}
 
 	public static void main(String args[]) {

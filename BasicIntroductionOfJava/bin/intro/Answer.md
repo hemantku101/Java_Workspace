@@ -12,7 +12,7 @@ programming language.
 
 - 3. Java does not contain multiple inheritance. It means an important feature of object 
   oriented design is lacking. So how can we say it is purely object oriented?
-No doubt Java is a purely object oriented programming language. The preceding points 
+  No doubt Java is a purely object oriented programming language. The preceding points 
   represent a lack of in depth understanding of Java.
 
 - 1. Even if Java has primitive datatypes, these types are used inside a class and never 

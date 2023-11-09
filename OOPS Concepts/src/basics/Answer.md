@@ -12,6 +12,10 @@ contains data and methods (functions) to achieve the task. The main task is divi
 several modules, and these are represented as classes. Each class can perform some tasks 
 for which several methods are written in a class. This approach is called Object oriented 
 approach.
+-**Explain about OOPS Concept?**
+ -The process of constructing applications using the Class-Object concept is known as Object Oriented Programming.
+ -In Object Oriented programming we control NonPrimitive data types or referential data types.
+
 -features Object oriented programming System
 -i)Class/Object
 -ii)Encapsulation
@@ -26,6 +30,7 @@ This definition specifies that every thing in this world is an object. For examp
 a ball, a car, a dog, a person, etc., every thing will come under objects. Then what is not 
 an object? If something does not really exist, then it is not an object. For example, our 
 thoughts, imagination, plans, ideas etc., are not objects, because they do not physically exist.
+
 -Difference between class and an object
 - A class is a model for creating objects and does not exist physically. An object is 
 any thing that exists physically. Both the class and objects contain variables and methods.
