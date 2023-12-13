@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class AlphaCount02 {
 static void count(String str) {
 		
-		int size = 256;
+		int size = 128;
 
 		int len = str.length();
 

@@ -1,6 +1,7 @@
 package stringproblems;
 import java.util.Scanner;
 public class CheckEachWordPalindrom {
+	
 	public static void checkEach(String str) {
 		for(String word : str.split(" ")) {
 			String temp="";
@@ -13,13 +14,13 @@ public class CheckEachWordPalindrom {
 			}
 		}
 	}
-	public static void chechIf(String str) {
-		for(int i=0;i<str.length();i++) {
-			if(' '==str.charAt(i)) {
-				
-			}
-		}
-	}
+//	public static void chechIf(String str) {
+//		for(int i=0;i<str.length();i++) {
+//			if(' '==str.charAt(i)) {
+//				
+//			}
+//		}
+//	}
 	public static void main(String args[]) {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter a line to check");

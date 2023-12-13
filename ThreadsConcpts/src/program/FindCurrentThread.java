@@ -1,6 +1,6 @@
 package program;
 //To find currently running thread in this program
-public class Demo1 {
+public class FindCurrentThread{
 	public static void main(String args[]) {
 		System.out.println("Let us find current thread");
 		Thread t=Thread.currentThread();

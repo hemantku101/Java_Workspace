@@ -1,5 +1,5 @@
-//write program to showing how to terminate the thread by pressing 
-//the thread by pressing the Enter button
+/*write program to showing how to terminate the thread by pressing 
+the thread by pressing the Enter button */
 
 package program;
 import java.io.*;

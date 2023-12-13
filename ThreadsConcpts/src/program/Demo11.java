@@ -1,5 +1,5 @@
-//write a program to synchronize the threads acting on the same object. 
-//The synchronized block in the program can be executed by only one thread at a time. 
+/*write a program to synchronize the threads acting on the same object. 
+The synchronized block in the program can be executed by only one thread at a time. */
 package program;
 //Thread synchronize - Two threads acting on same object
 class Reserve01 implements Runnable{

@@ -199,7 +199,160 @@ return true if the element is removed sucessfully otherwise it return false.
 
 
 #**LinkedHashSet**
+-1-It is an implementation of hashing technique with linked represenation.
+2-LinkedHashSet does not allow duplicate elements because it implements set interface.
+3-linkedHashset is allow null value.
+4-LinkedHashSet occupie more memory because data stored in nodes.
+5-In LinkedHashSet insertation order is preserved because it is an ordered set.
+6-Initial capacity is 16.
+7-Load factor is 75%
+
+#**TreeSet**
+-1-It is an implementation of binary search tree technique with linked representation.
+2-**Binary Search tree**
+A binary tree is said to be binary search tree if it is followiing rules:-
+1-if the element is less then root element then it must be in left sub tree.
+2-If the element is greater than root element then it must be in right sub tree.
 -
+-
+--TreeSet does not allow duplicate elements because it implements set interface.
+--TreeSet does not allow null value.
+--Here all elements are shorted because it is a sorted set.
+--It occupies more memory because data store in nodes.
+
+# Diiffrence between HashSet, LinkedhashSet, TreeSet
+
+**HashSet**
+1-It is an implementation of hashing trchnique with array representation.
+2-It occupie less memory.
+3-It is an UnorderedSet.
+4-It allow null value.
+
+**LinkedHashSet**
+1-It is an implementation of hashing technique with linked representation.
+2-It occupies more memory because data stored in nodes.
+3-It is an ordered set.
+4-It allows null value.
+
+**TreeSet**
+1-It is an Implementation of binary search tree technique with linked representation.
+2-It occupies more memory because data stored in nodes.
+3-It is a shorted set.
+4-It does not allow null value.
+
+# HashMap<K,V>
+
+1-It is a two dimensional collection class and it maintains key and value pairs.
+2-It is an implementation of hashing technique with array representation.
+3-It does not allows duplicate keys.(values may be duplicate).
+4-It allows one null key and many null values.
+5-It occupies more memory because data store in nodes.
+6-Here each node contain 4 parts.
+	i)key
+	ii)hashcode
+	iii)value
+	iv)next node address
+7-It is an unordered map.
+8-Here insertion order is not preserved.
+9-Initial capacityof hashmap is 16.
+10-Load factor is 75% .
+ 
+# LinkedHashMap
+
+1-It is a two dimensional collection class and it maintains data as a key and values pairs.
+2-It is an implementataion of hashing technique with linked representation.
+3-It occupies more memory because data store in nodes.
+4-It does not allow duplicate keys (values may be duplicates).
+5-It allow one null key and many null values.
+6-It is an ordered map.
+7-Here insertion order is preserved.
+8-Initial capacity of LinkedHashMap is 16.
+9-It occupies more memory because data store in nodes.
+10-Here each node contain 6 parts.
+
+# TreeMap
+1-It is a two dimensional collection class and it maintains data as key and value pairs.
+2-It is implementation of binary search tree technique with linked representation.
+3-It occupies more memory because data stored in nodes.
+4-It does not allow duplicate keys(values may be duplicate).
+5-It does not allow null key.
+6-It allows null values.
+7-It is a sorted map.
+8-Here insertion order is not preserved.
+
+# Differences between HashMap, LinkedHashMap, TreeMap
+
+**HashMap**
+
+-1-It is an implementation of hashing technique with array representation.
+2-It occupies less memory.
+3-It is an unordered map.
+4-It allows one null key and many null values.
+
+**LinkedHashMap**
+
+1-It implementation of hashing technique with linked representation.
+2-It occupie more memory because data stored in nodes.
+3-It is an ordered map.
+4-It allows one null key and many null values.
+
+**TreeMap**
+1-It is an implementation binary search tree technique with linked representation.
+2-It occupies more memory because data stored in nodes.
+3-It is a sorted map.
+4-It is does not allow null key and allows null values.
 
 
+# Diffrence between HashSet,LinkedHashSet,TreeSet and HashMap,LinkedHashMap,TreeMap
 
+**HashSet,LinkedHashSet,TreeMap**
+1-These are one dimensional collection class.
+2-These collections contains elements.
+3-These are index based collection.
+4-These collections donot allow duplicate elements.
+
+**HashMap,LinkedHashMap,TreeMap**
+1-These are two dimensional collection classes.
+2-These collections contain key and value pairs.
+3-These are key based collections.
+4-These collections do not allow duplicate keys.
+
+# Vector
+
+1-Vector organizes elements in sequence and which is synchronized class.
+2-vector is a Legacy class in collection Framework and which has no replacement.
+3-vector is an array representation of list implementation class.
+4-It similar to ArrayList class.
+
+# PriorityQueue
+1-A PriprityQueue is a queue in which elements are inserted at rear end and delected at front end.
+2-In a priorityQueue ,last element is a high priority.
+3-Here priorities are compared by using java.util.Comparator Interface.
+4-It allows duplicate elements.
+5-It does not allow null values.
+6-Initial capacity of PriorityQueue is 11.
+7-Load factor of PriorityQueue is 100%.
+8-Internally it uses heap tree dataStructure.
+9-A heap tree is a tree in which each node grater then its child nodes.
+10-Here, offer()method used to insert an element and pull()method used to delete an element.
+
+# ArrayDeque
+1-It is an implementation of double ended queue data structure with array representation.
+2-It allows both inserion and delection at both the ends(rear end and front end) because it implements Deque interface.
+3-It allows duplicate elements.
+4-It does not allow null values.
+5-initial capacity of ArrayDeque is 16.   
+7-Load factor of Arraydeque is 100%.
+8-Here insertion order is preserved.
+
+# Differences between Queue and Deque:-
+ **Queue**
+ 1-It is an implementation of queue data structure.
+ 2-It is a first in first out list(fifo).
+ 3-It allow insertion at rear end only.
+ 4-It allow deletion at front end.
+ **Deque**
+ 1-It is an implementation of deque data structure.
+ 2-It is not a first in first out list.
+ 3-It allow insertion at both the ends.
+ 4-It allows deletion at both the ends. 

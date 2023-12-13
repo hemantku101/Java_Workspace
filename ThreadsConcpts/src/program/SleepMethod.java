@@ -1,6 +1,6 @@
 package program;
 //Program to demonstrate sleep() method
-public class Demo3 {
+public class SleepMethod {
 	public static void main(String args[]) {
 		try {
 			for(int i=0;i<=10;i++) {

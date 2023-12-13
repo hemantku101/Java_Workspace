@@ -12,7 +12,7 @@ contains data and methods (functions) to achieve the task. The main task is divi
 several modules, and these are represented as classes. Each class can perform some tasks 
 for which several methods are written in a class. This approach is called Object oriented 
 approach.
--**Explain about OOPS Concept?**
+- **Explain about OOPS Concept?**
  -The process of constructing applications using the Class-Object concept is known as Object Oriented Programming.
  -In Object Oriented programming we control NonPrimitive data types or referential data types.
 
@@ -23,7 +23,7 @@ approach.
 -iv)Inheritance
 -v)Polymorphism
 
--i)Class/Object:-
+- i)Class/Object:-
 The entire OOP methodology has been derived from a single root concept called 'object'. 
 An object is anything that really exists in the world and can be distinguished from others. 
 This definition specifies that every thing in this world is an object. For example, a table, 
@@ -31,32 +31,37 @@ a ball, a car, a dog, a person, etc., every thing will come under objects. Then 
 an object? If something does not really exist, then it is not an object. For example, our 
 thoughts, imagination, plans, ideas etc., are not objects, because they do not physically exist.
 
--Difference between class and an object
+- Difference between class and an object
 - A class is a model for creating objects and does not exist physically. An object is 
 any thing that exists physically. Both the class and objects contain variables and methods.
 
--ii)Encapsulation:-
+- ii)Encapsulation:-
 Encapsulation is a mechanism where the data (variables) and the code (methods) that 
 act on the data will bind together. For Example, if we take a class, we write the variables 
 and methods inside the class. Thus, class is binding them together. So class is an example 
 for encapsulation.
 
--iii)Abstraction:-
+- iii)Abstraction:-
 There may be a lot of data, a class contains and the user does not need the entire data.The 
-user requires only some part of the avaliable data. In this case, wecan hie the unnecessary 
+user requires only some part of the avaliable data. In this case, we can hide the unnecessary 
 data from the user and expose only that is of interest to user. This is called abstraction.
 
--iv)Inheritance:-
+- iv)Inheritance:-
 It creates new classes from existing classes, so that the new classes will acquire all 
 the fratures of the existing classes is called Inheritance.
 
--v)Polymorphism:-
-The word 'polymorphism' came from two Greek words'poly' meaning 'many' and 'morphos' 
-meaning 'forms'. Thus, polymorphism represents the ability to assume several different 
-forms. In programming, we can use a single variable to refer to objects of different 
-types and thus, using that variable we can call the methods of the diffrent objects. 
-Thus a method call can perform different tasks depending on the type of the object.
+- v)Polymorphism:-
+The word 'polymorphism' came from two Greek words 'poly' meaning 'many' and 'morphos' meaning '
+forms'. Thus, polymorphism represents the ability to assume several different forms. In 
+  programming, we can use a single variable to refer to objects of different types and thus, 
+  using that variable we can call the methods of the different objects.
+  Thus a method call can perform different tasks depending on the type of the object.
 
+# What is the difference between Interface and Abstract class?
+- Interface cannot hold blocks and Constructors,but abstract class can hold both blocks and constructors.
+In Interfaces "abstract" keyword is not mandatory to declare abstract methods,but "abstract" keyword is mandatory in abstract classes to declare abstract methods.
+methods in interfaces are automatically abstract,but methods in abstract classes are automatically concrete methods.
+Variables in interfaces are automatically static and final, but Variables in AbstractClasses are user choice
 
 # 1)What is hash code?
 
